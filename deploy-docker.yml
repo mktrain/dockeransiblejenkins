@@ -1,6 +1,6 @@
 ---
 - hosts: slave
-  become: ansadmin
+  become: True
   tasks:
     - name: Install python pip
       yum:
