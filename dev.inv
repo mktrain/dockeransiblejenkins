@@ -1,2 +1,4 @@
-[dev]
-172.31.34.192 ansible_user=ec2-user
+[master]
+10.160.0.31
+[slave]
+10.160.0.35
